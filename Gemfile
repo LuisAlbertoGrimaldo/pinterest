@@ -16,7 +16,8 @@ gem 'activeadmin', github: 'gregbell/active_admin'
 group :development, :test do
   gem 'sqlite3'
  end
-gem 'pg', group: :production
+#gem 'pg', group: :production
+gem 'pg', '0.21.0', group: :production
 gem 'rails_12factor', group: :production
 
 
